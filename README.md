@@ -42,7 +42,6 @@ Anomaly Detection in Telcos with Spark
 
   ```
   # go to the folder telco-anomaly-detection-spark
-  cd /home/vagrant/telco-anomaly-detection-spark
   chmod 777 run.sh
   cp common/src/main/resources/config.conf /tmp/
   ```
@@ -50,13 +49,12 @@ Anomaly Detection in Telcos with Spark
 
   ```
   # go to the folder telco-anomaly-detection-spark
-  cd /home/vagrant/telco-anomaly-detection-spark
   mvn package
   ```
 8. Run the start script:
   ```
   sudo -u mapr -s
-  cd /home/vagrant/telco-anomaly-detection-spark
+  # go to the folder telco-anomaly-detection-spark
   ./run.sh
   ```
 9. Now you can open UI in browser:
